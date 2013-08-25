@@ -1,0 +1,36 @@
+PATH
+  remote: .
+  specs:
+    nanoc-colorize_syntax (1.0.0)
+      nanoc-core
+      nokogiri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.0.9)
+    mini_portile (0.5.1)
+    minitest (5.0.6)
+    nanoc-core (4.0.0a1)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    posix-spawn (0.3.6)
+    pygments.rb (0.5.2)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
+    rake (10.1.0)
+    systemu (2.5.2)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  coderay
+  minitest
+  nanoc-colorize_syntax!
+  nokogiri
+  pygments.rb
+  rake
+  systemu
